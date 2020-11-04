@@ -1,2 +1,2 @@
-### Open Source Autonomy Website
+# Open Source Autonomy Website
 ## OpenSourceAutonomy.com

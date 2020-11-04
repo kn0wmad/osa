@@ -1,3 +1,3 @@
-### Open Source Autonomy
+# Open Source Autonomy
 ## Tools for freedom
-# OpenSourceAutonomy.com
+### OpenSourceAutonomy.com
