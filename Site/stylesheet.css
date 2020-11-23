@@ -1,6 +1,9 @@
 body {
-    background-color: darkslategray;
+    background-color: #003d00;
     font-family: monoid;
+    min-height: 600px;
+    margin-bottom: 400px;
+    clear: both;
 }
 
 h1  {
@@ -43,11 +46,19 @@ hr  {
     }
 
 .topnav a:hover {
-    background-color: rgb(116, 116, 116);
+    background-color: darkslategray;
     color: black;
     }
 
 .topnav a:active {
-    background-color: rgb(16, 121, 16);
+    background-color: #003d00;
     color: white;
     }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
