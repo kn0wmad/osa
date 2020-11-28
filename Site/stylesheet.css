@@ -1,7 +1,8 @@
 body {
     background-color: #003d00;
     font-family: monoid;
-    min-height: 600px;
+    
+    min-height: 1000px;
     margin-bottom: 400px;
     clear: both;
 }
