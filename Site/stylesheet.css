@@ -1,7 +1,7 @@
 body {
     background-color: #003d00;
     font-family: monoid;
-    
+    color: white;
     min-height: 1000px;
     margin-bottom: 400px;
     clear: both;
@@ -10,18 +10,30 @@ body {
 h1  {
     background-color: slategrey; 
     text-align: center;
-    font-family: monoid;
-    text-shadow: 2px 2px darkslategray;
-
+    font-size: 69px;
+    text-shadow: 3px 3px black;
+    /* text-decoration: underline; */
+    text-decoration-color: black;
 }
 
 h2  {
     text-align: center;
-    font-family: monoid;
+    font-size: 57;
+    text-decoration: underline;
+    text-shadow: 3px 3px black;
+    text-decoration-color: white;
+}
+
+h3  {
+    text-align: center;
+    font-size: 48;
+    /* text-decoration: underline; */
+    text-shadow: 3px 3px black;
+    text-decoration-color: white;
 }
 
 p   {
-    font-family: monoid;
+    font-size: 42;
 }
 
 hr  {
