@@ -1,6 +1,6 @@
-# Open Source Autonomy
+# Open Source Autonomy Website
 ## Libre tools for Liberty
--  Website now live via IPFS
+-  Website now live via IPFS gateway
 	- Expect lots of downtime during this heavy construction phase
 -  I do not plan to use any javascript for this site
 -  Site will stable on clearweb and IPFS in January 2021
