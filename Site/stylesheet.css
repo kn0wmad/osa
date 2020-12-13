@@ -89,9 +89,9 @@ body {
     text-shadow: 2px 2px #000000;
 }
 /* Links */
-/* .main a {
-    TODO - Style links
-} */
+.main a {
+    text-shadow: none;
+}
 
 .main h1 {
     background-color: #003300;
