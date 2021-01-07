@@ -1,4 +1,4 @@
-# Open Source Autonomy Website
+# Open Source Autonomy
 
 ## "Libre tools for Liberty"
 -  Website now live via IPFS gateway
