@@ -1,10 +1,10 @@
 # Open Source Autonomy
 
 ## "Libre tools for Liberty"
--  Website now live via IPFS gateway
-	- Expect lots of downtime during this heavy construction phase
--  Site will be stable on clearweb and IPFS in January 2021
--  Show launching January 2021 - watch "Recordings" section of site
+-  Website server now live, updated IPFS version will be posted to site soon
+	- Expect a bit more downtime into February 2021 as configs are stabilized
+-  Site will be stable on both clearweb and IPFS in February 2021
+-  Show launching February 2021 - watch "Recordings" section of site
 -  All website code will be availble here, and I will do the best I can to only use plugins that are also open source
 -  I plan to avoid using javascript as much as possible
 -  Eventually site will be refactored in Rust (Q3 2021)

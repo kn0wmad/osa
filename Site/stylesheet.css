@@ -147,6 +147,10 @@ body {
     border-radius: 10px;
 }
 
+.main img {
+    padding: 10px;
+}
+
 .main blockquote {
     background-color: #003300;
     font-size: 20px;
