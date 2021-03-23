@@ -166,6 +166,14 @@ body {
     border: 6px solid #000000;
     border-radius: 10px;
 }
+/* iframes */
+div, iframe {
+    /* width: 420;
+    height: 550; */
+    margin: 0 auto;
+    display: block;
+}
+
 /*  Breaks */
 .main hr  {
     background-color: #000000;
