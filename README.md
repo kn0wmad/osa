@@ -13,10 +13,11 @@ Many of us have a feeling that we cannot explain.  We may begin to feel this as 
 	- [x] Expect a bit more downtime into February 2021 as configs are stabilized
 - [x] Site will be stable on both clearweb and IPFS in February 2021
 - [x] Show launching February 2021 - watch "Recordings" section of site
-- [ ] btcPayServer for donations (Q2 2021)
+- [ ] btcPayServer for Bitcoin and Lightning Network donations (April 2021)
+- [ ] Monero donations (April 2021)
 - [ ] email server (Q3 2021)
 - [ ] gitlab server for hosting all code on bare metal (Q3 2021)
-- [ ] Eventually site will be refactored in Rust (Q3 2021)
+- [ ] Eventually site will be refactored in Rust (Q4 2021)
 
 ![BipCot NoGov License](/Site/images/bipcot144x144.png)
 
