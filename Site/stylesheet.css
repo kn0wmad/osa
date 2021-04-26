@@ -166,12 +166,19 @@ body {
     border: 6px solid #000000;
     border-radius: 10px;
 }
-/* iframes */
-div, iframe {
-    /* width: 420;
-    height: 550; */
-    margin: 0 auto;
-    display: block;
+/* Sphinx widget */
+.sphinx-widget {
+    text-shadow: none;
+}
+
+sphinx-widget header {
+    background-color: #001911 !important;
+    color: white !important;
+}
+
+/* BTCPay */
+.btcpay {
+    text-shadow: none;
 }
 
 /*  Breaks */
