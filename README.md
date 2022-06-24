@@ -9,8 +9,7 @@ Many of us have a feeling that we cannot explain.  We may begin to feel this as 
 -  I plan to avoid using javascript as much as possible
 
 ## The OSA Journey
-- [x] Website now live
-- [x] Site stable on both clearweb and Tor
+- [x] [Website](https://OpenSourceAutonomy.com) is live and server stable
 	- [x] [Tor hidden service](http://gn3okzrztxt54shl5fwlftgaznej3fz2xfbkgqj5kckp746rpnya6qid.onion/) for redundancy
 	- [ ] IPFS site currently under maintenance (Q4 2022)
 - [x] Show launched February 2021
