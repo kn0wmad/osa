@@ -29,15 +29,63 @@
             You can also contribute to the website here if you'd like, or simply copy any or all of it for your own use.  Libertad!
         </p>
     <div class="btcpay">
-        <iframe
-            src='/apps/2KMP9MSKaUN2fNNCCyj3GysCGiPA/pos'
-            style='max-width: 100%; border: 0;'></iframe>
-    </div>
-    <div class="sphinx-widget">
-        <script src="https://sphinx.chat/donation/widget.js"></script>
-        <sphinx-widget pubkey="02f425620657bd823551f3e70a1a45e62c17aa771e455c0988b2e42e4ecd184d77" title="Support OSA"
-            subtitle="We appreciate every sat" name="OSA" imgurl="https://www.opensourceautonomy.com/images/osaLogoWhite250.png"
-            buttonlabel="Donate via Sphinx"></sphinx-widget></div>
+        <form method="POST" action="https://btcpay.opensourceautonomy.com/api/v1/invoices"
+            class="btcpay-form btcpay-form--inline">
+            <input type="hidden" name="storeId" value="Hwc1jhXq6K8YpyM3BkW59NTbKYYXN7yMDomQSmkGY29p" />
+            <input type="hidden" name="checkoutDesc" value="OSA Donation" />
+            <input type="hidden" name="notifyEmail" value="admin@opensourceautonomy.com" />
+            <div class="btcpay-custom-container">
+                <div class="btcpay-custom">
+                    <button class="plus-minus" type="button" onclick="handlePlusMinus(event);return false" data-type="-"
+                        data-step="10" data-min="10" data-max="100000000">-</button>
+                    <input class="btcpay-input-price" type="number" name="price" min="10" max="100000000" step="10" value="10"
+                        data-price="10" style="width:3em;" oninput="handlePriceInput(event);return false" />
+                    <button class="plus-minus" type="button" onclick="handlePlusMinus(event);return false" data-type="+"
+                        data-step="10" data-min="10" data-max="100000000">+</button>
+                </div>
+                <select name="currency">
+                    <option value="SATS" selected>SATS</option>
+                    <option value="USD">USD</option>
+                    <option value="GBP">GBP</option>
+                    <option value="EUR">EUR</option>
+                    <option value="BTC">BTC</option>
+                </select>
+            </div>
+            <button type="submit" class="submit" name="submit" style="min-width:209px;min-height:57px;border-radius:4px;border-style:none;background-color:#0f3b21;"
+                title="Pay with BTCPay Server, a Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">Donate to OSA</span>
+                <img src="https://btcpay.opensourceautonomy.com/img/logo.svg" style="height:57px;display:inline-block;padding:5% 0 5% 5px;vertical-align:middle;">
+            </button>
+        </form>
+        <script>
+            function handlePlusMinus(event) {
+                event.preventDefault();
+                const root = event.target.closest('.btcpay-form');
+                const el = root.querySelector('.btcpay-input-price');
+                const step = parseInt(event.target.dataset.step) || 1;
+                const min = parseInt(event.target.dataset.min) || 1;
+                const max = parseInt(event.target.dataset.max);
+                const type = event.target.dataset.type;
+                const price = parseInt(el.value) || min;
+                if (type === '-') {
+                    el.value = price - step < min ? min : price - step;
+                } else if (type === '+') {
+                    el.value = price + step > max ? max : price + step;
+                }
+            }
+            function handlePriceInput(event) {
+                event.preventDefault();
+                const root = event.target.closest('.btcpay-form');
+                const price = parseInt(event.target.dataset.price);
+                if (isNaN(event.target.value)) root.querySelector('.btcpay-input-price').value = price;
+                const min = parseInt(event.target.getAttribute('min')) || 1;
+                const max = parseInt(event.target.getAttribute('max'));
+                if (event.target.value < min) {
+                    event.target.value = min;
+                } else if (event.target.value > max) {
+                    event.target.value = max;
+                }
+            }
+        </script>
         <p style="text-align: center;">
             Monero donations will be enabled soon(tm)
         </p>
