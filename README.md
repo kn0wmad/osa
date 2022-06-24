@@ -18,7 +18,7 @@ Many of us have a feeling that we cannot explain.  We may begin to feel this as 
 - [x] btcPayServer for Bitcoin and Lightning donations - See [Contribute page](https://www.opensourceautonomy.com/contribute.html)
 - [ ] Monero donations (Q3 2022)
 - [ ] gitea server for hosting all code on bare metal (Q1 2023)
-- [ ] Eventually site will be refactored in Rust (????)
+- [ ] Eventually site and server will be refactored in Rust (????)
 
 ![BipCot NoGov License](/Site/images/bipcot144x144.png)
 
