@@ -14,11 +14,10 @@ Many of us have a feeling that we cannot explain.  We may begin to feel this as 
 - [x] Site will be stable on both clearweb and IPFS in February 2021
 - [x] Show launching February 2021 - watch "Recordings" section of site
 - [x] SphinxChat for recurring Lightning Network donations and spam-free chat room
-- [ ] Tor hidden service - WIP (Q4 2021)
-- [ ] btcPayServer for Bitcoin and Lightning Network donations - WIP (Q4 2021)
-- [ ] Monero donations (Q4 2021)
-- [ ] email server (Q2 2022)
-- [ ] gitlab server for hosting all code on bare metal (Q2 2022)
+- [x] [Tor hidden service](http://gn3okzrztxt54shl5fwlftgaznej3fz2xfbkgqj5kckp746rpnya6qid.onion/) for redundancy
+- [x] btcPayServer for Bitcoin and Lightning donations - See [Contribute page](https://www.opensourceautonomy.com/contribute.html)
+- [ ] Monero donations (Q3 2022)
+- [ ] gitea server for hosting all code on bare metal (Q1 2023)
 - [ ] Eventually site will be refactored in Rust (????)
 
 ![BipCot NoGov License](/Site/images/bipcot144x144.png)
